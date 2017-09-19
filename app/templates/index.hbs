@@ -1,1 +1,12 @@
-{{outlet}}
+<h1> Welcome to Property Rentals </h1>
+
+<p>We hope we are the solution to you are be sure you won't be suffering no more as you will find the place you've been looking for to stay.</p>
+
+<ul>
+  {{#each model as |rental|}}
+  <li>{{rental.owner}} {{rental.type}} {{rental.city}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contact'}}Click Here to Contact Us.{{/link-to}}
