@@ -17,6 +17,26 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    module.exports = function(environment) {
+  var ENV = {
+    modulePrefix: 'super-rentals',  # This will differ depending on what you named YOUR app.
+    environment: environment,
+    rootURL: '/',
+    locationType: 'auto',
+    EmberENV: {
+      FEATURES: {
+        // Here you can enable experimental features on an ember canary build
+        // e.g. 'with-controller': true
+      }
+    },
+
+    apiKey: "AIzaSyAOb4M-KduU-L3SgQ8zjjxMwCEgE3N2ppM",
+    authDomain: "property-rental-fb130.firebaseapp.com",
+    databaseURL: "https://property-rental-fb130.firebaseio.com",
+    projectId: "property-rental-fb130",
+    storageBucket: "property-rental-fb130.appspot.com",
+    messagingSenderId: "208377195928"
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
