@@ -17,19 +17,7 @@ module.exports = function(environment) {
         Date: false
       }
     },
-    module.exports = function(environment) {
-  var ENV = {
-    modulePrefix: 'super-rentals',  # This will differ depending on what you named YOUR app.
-    environment: environment,
-    rootURL: '/',
-    locationType: 'auto',
-    EmberENV: {
-      FEATURES: {
-        // Here you can enable experimental features on an ember canary build
-        // e.g. 'with-controller': true
-      }
-    },
-
+  firebase: {
     apiKey: "AIzaSyAOb4M-KduU-L3SgQ8zjjxMwCEgE3N2ppM",
     authDomain: "property-rental-fb130.firebaseapp.com",
     databaseURL: "https://property-rental-fb130.firebaseio.com",
